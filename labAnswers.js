@@ -47,14 +47,31 @@
 ///////////////////
 // Yell at the Ninja Turtles
 ///////////////////
-let turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
-for (const ninja of turtles) {
-    console.log(ninja.toUpperCase());
-}
+// let turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// for (const ninja of turtles) {
+//     console.log(ninja.toUpperCase());
+// }
 
 ///////////////////
 // Methods, Revisited
 ///////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+console.log(favMovies.indexOf('Titanic'));
+favMovies.sort();
+console.log('\nSORT: ' + favMovies); // Yes it is destructive
+favMovies.pop();
+favMovies.push('Guardians of the Galaxy');
+favMovies.reverse();
+favMovies.shift();
+favMovies.unshift('The Green Mile');
+favMovies.splice(favMovies.indexOf('Django Unchained'), 1, 'Avatar')
+console.log('\nSPLICE: ' + favMovies); // Yes it is destructive
+const sliced = favMovies.slice(favMovies.length / 2, favMovies.length);
+console.log('\nSLICED: ' + sliced)
+console.log('\nFINAL RESULTS: ' + favMovies);
+console.log(favMovies.indexOf('Fast and Furious - It\'s still there!'));
+// IT WASN'T REMOVED, IT RETURNED 14. HOWEVER, IF IT HAD BEEN, I BELIEVE IT WOULD HAVE RETURNED -1
+// IF I REMEMBER CORRECTLY, USING const ON AN ARRAY MEANS YOU CAN'T CHANGE THE NAME OF THE ARRAY, BUT HAS NO IMPACT ON ITS CONTENTS
 
 ///////////////////
 // Where is Waldo

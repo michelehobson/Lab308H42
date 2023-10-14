@@ -127,11 +127,44 @@ console.log(Math.floor(nums.length / 2));
 ///////////////////
 // Hungry for More?
 ///////////////////
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "Per Scholas hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+ 
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
 
 ///////////////////
 // Alien Attire
 ///////////////////
-
+console.log(kristynsCloset);
+let kristynsShoe = kristynsCloset.splice(0,1);
+console.log(kristynsCloset);
+console.log(thomsCloset)
+thomsCloset.push(kristynsShoe);
 ///////////////////
 // Dress Us Up
 ///////////////////

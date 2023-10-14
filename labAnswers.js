@@ -98,23 +98,16 @@ console.log(whereIsWaldo[2][1][1])
 ///////////////////
 // Excited Kitten
 ///////////////////
-// for (let d = 1; d <= 40; d++) {   
-//     if (d <= 20) {
-//         console.log(d + 'Love me, pet me! HSSSSSS!');
-//     } else if (d % 2 === 0) {  THIS DIDN'T SATISFY THE REQUIREMENT BECAUSE MY LOOP ITERATES 40 TIMES AND IT ONLY PRINTS 10 TIMES.
-//         console.log(d + msg[(Math.floor(Math.random() * 3))]);
-//     }
-// }
 let msg = ['...human... why you taking pictures of me...?', '...the catnip made me do it...', '...why does the red dot always get away...?']
 let ctr = 0;
 for (let d = 1; d <= 20; d++) {
-    console.log(d + 'Love me, pet me! HSSSSSS!');
+    console.log('Love me, pet me! HSSSSSS!');
     if (d % 2 === 0) {
         ctr++;
     }
 }
 while (ctr >= 0) {
-    console.log(ctr + msg[(Math.floor(Math.random() * 3))]);
+    console.log(msg[(Math.floor(Math.random() * 3))]);
     ctr--;
 }
 
@@ -182,8 +175,8 @@ for (const f of kristynsCloset) {
 ///////////////////
 // Inventory
 ///////////////////
-for (g = 0; g < thomsCloset.length; g++) {
-    console.log(thomsCloset[g]);
-}
+// for (g = 0; g < thomsCloset.length; g++) {
+//     console.log(thomsCloset[g]);
+// }
 // OR
 console.log(thomsCloset[0] + '\n' + thomsCloset[1] + '\n' + thomsCloset[2])

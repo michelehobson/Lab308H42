@@ -165,9 +165,12 @@ let kristynsShoe = kristynsCloset.splice(0,1);
 console.log(kristynsCloset);
 console.log(thomsCloset)
 thomsCloset.push(kristynsShoe);
+
 ///////////////////
 // Dress Us Up
 ///////////////////
+console.log(`Kristyn will wear her ${kristynsCloset[3]}, ${kristynsCloset[4]}, and ${kristynsCloset[0]}
+while Thom will wear his ${thomsCloset[0][0]}, ${thomsCloset[1][0]}, and ${thomsCloset[2][2]} to school and his ${thomsCloset[0][3]}, ${thomsCloset[1][1]}, and ${thomsCloset[2][1]} at the dinner this evening.`)
 
 ///////////////////
 // Dirty Laundry

@@ -1,6 +1,7 @@
 ///////////////////
 // EASY GOING
 ///////////////////
+console.log('\nEASY GOING')
 for (let a = 1; a < 21; a++) {
     console.log(a);
 }
@@ -8,6 +9,7 @@ for (let a = 1; a < 21; a++) {
 ///////////////////
 // GET EVEN 
 ///////////////////
+console.log('\nGET EVEN')
 for (let b = 0; b <= 200; b++) {
     if (b % 2 === 0) {
         console.log(b);
@@ -17,6 +19,7 @@ for (let b = 0; b <= 200; b++) {
 ///////////////////
 // FIZZ BUZZ
 ///////////////////
+console.log('\nFIZZ BUZZ')
 for (let c = 1; c <= 100; c++) {
     if (c % 3 === 0 && c % 5 === 0) {
         console.log('FizzBuzz');
@@ -32,6 +35,7 @@ for (let c = 1; c <= 100; c++) {
 ///////////////////
 // WILD WILD LIFE
 ///////////////////
+console.log('\nWILD WILD LIFE')
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 const sharky = ["Sharky", "shark", 20, "Left Coast"]
 const plantee = ["Plantee", "plant",  5000 , "Mordor"]
@@ -48,6 +52,7 @@ console.log(wolfy + '\n' + sharky + '\n' + plantee + '\n' + porgee + '\n' + dart
 ///////////////////
 // Yell at the Ninja Turtles
 ///////////////////
+console.log('\nYELL AT THE NINJA TURTLES')
 let turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 for (const ninja of turtles) {
     console.log(ninja.toUpperCase());
@@ -56,6 +61,7 @@ for (const ninja of turtles) {
 ///////////////////
 // Methods, Revisited
 ///////////////////
+console.log('\nMETHODS REVISTED')
 const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 console.log(favMovies.indexOf('Titanic'));
 favMovies.sort();
@@ -77,6 +83,7 @@ console.log(favMovies.indexOf('Fast and Furious - It\'s still there!'));
 ///////////////////
 // Where is Waldo
 ///////////////////
+console.log('\nWHERE IS WALDO')
 const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
                       ["Lucinda", "Jacc", "Neff", "Snoop"],
                       ["Petunia", ["Baked Goods", "Waldo"]]];
@@ -98,6 +105,7 @@ console.log(whereIsWaldo[2][1][1])
 ///////////////////
 // Excited Kitten
 ///////////////////
+console.log('\nEXCITED KITTEN')
 let msg = ['...human... why you taking pictures of me...?', '...the catnip made me do it...', '...why does the red dot always get away...?']
 let ctr = 0;
 for (let d = 1; d <= 20; d++) {
@@ -114,6 +122,7 @@ while (ctr >= 0) {
 ///////////////////
 // Find the Median
 ///////////////////
+console.log('\nFIND THE MEDIAN')
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 console.log(Math.floor(nums.length / 2));
 
@@ -153,21 +162,24 @@ const kristynsCloset = [
 ///////////////////
 // Alien Attire
 ///////////////////
-// console.log(kristynsCloset);
+console.log('\nHUNGRY FOR MORE')
+console.log('\nALIEN ATTIRE')
 let kristynsShoe = kristynsCloset.splice(0,1);
-// console.log(kristynsCloset);
-// console.log(thomsCloset)
 thomsCloset.push(kristynsShoe);
+console.log(kristynsCloset);
+console.log(thomsCloset)
 
 ///////////////////
 // Dress Us Up
 ///////////////////
+console.log('\nDRESS UP')
 console.log(`Kristyn will wear her ${kristynsCloset[3]}, ${kristynsCloset[4]}, and ${kristynsCloset[0]}
 while Thom will wear his ${thomsCloset[0][0]}, ${thomsCloset[1][0]}, and ${thomsCloset[2][2]} to school and his ${thomsCloset[0][3]}, ${thomsCloset[1][1]}, and ${thomsCloset[2][1]} at the dinner this evening.`)
 
 ///////////////////
 // Dirty Laundry
 ///////////////////
+console.log('\nDIRTY LAUNDRY')
 for (const f of kristynsCloset) {
     console.log(`WHIRR: Now washing ${f}`)
 }
@@ -175,6 +187,7 @@ for (const f of kristynsCloset) {
 ///////////////////
 // Inventory
 ///////////////////
+console.log('\nINVENTORY')
 // for (g = 0; g < thomsCloset.length; g++) {
 //     console.log(thomsCloset[g]);
 // }

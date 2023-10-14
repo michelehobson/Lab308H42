@@ -182,3 +182,8 @@ for (const f of kristynsCloset) {
 ///////////////////
 // Inventory
 ///////////////////
+for (g = 0; g < thomsCloset.length; g++) {
+    console.log(thomsCloset[g]);
+}
+// OR
+console.log(thomsCloset[0] + '\n' + thomsCloset[1] + '\n' + thomsCloset[2])

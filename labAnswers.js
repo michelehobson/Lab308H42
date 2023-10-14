@@ -160,10 +160,10 @@ const kristynsCloset = [
 ///////////////////
 // Alien Attire
 ///////////////////
-console.log(kristynsCloset);
+// console.log(kristynsCloset);
 let kristynsShoe = kristynsCloset.splice(0,1);
-console.log(kristynsCloset);
-console.log(thomsCloset)
+// console.log(kristynsCloset);
+// console.log(thomsCloset)
 thomsCloset.push(kristynsShoe);
 
 ///////////////////
@@ -175,6 +175,9 @@ while Thom will wear his ${thomsCloset[0][0]}, ${thomsCloset[1][0]}, and ${thoms
 ///////////////////
 // Dirty Laundry
 ///////////////////
+for (const f of kristynsCloset) {
+    console.log(`WHIRR: Now washing ${f}`)
+}
 
 ///////////////////
 // Inventory

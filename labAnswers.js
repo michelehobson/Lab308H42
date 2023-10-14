@@ -112,9 +112,6 @@ for (let d = 1; d <= 20; d++) {
     if (d % 2 === 0) {
         ctr++;
     }
-    // if (d === 21) {
-
-    // }
 }
 while (ctr >= 0) {
     console.log(ctr + msg[(Math.floor(Math.random() * 3))]);
